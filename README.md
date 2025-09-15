@@ -33,6 +33,4 @@ El sitio incluye:
 3. El sitio es **responsive**, por lo que se adapta automáticamente a móviles y tablets.
 
 ## Cómo se publicó
-El sitio se puede publicar en cualquier hosting estático, como:
 - **GitHub Pages**: subiendo el repositorio y activando Pages en la configuración del repositorio.
-- **Netlify** o **Vercel**: arrastrando la carpeta del proyecto.

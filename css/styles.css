@@ -94,7 +94,7 @@ footer {
 
 footer .svg-wave {
   position: absolute;
-  top: -80px;   /* ajustado a la nueva altura */
+  top: -65px;   /* ajustado a la nueva altura */
   left: 0;
   width: 100%;
   height: 80px; /* ola más chica */
@@ -116,6 +116,37 @@ footer .redes a {
   font-size: 30px;
   text-decoration: none;
   transition: color 0.3s;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px auto;
+  max-width: 1200px; /* más espacio total */
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 25px;
+  width: 350px;   /* más ancho que antes */
+  max-width: 90%; /* para que no se desborde en móviles */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.card p {
+  font-size: 17px;
+  color: #333;
+  line-height: 1.6;
 }
 
 
